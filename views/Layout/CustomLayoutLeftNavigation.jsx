@@ -3,8 +3,8 @@ import Grid from "@mui/material/Grid";
 import { Box } from "@mui/material";
 
 // Componnets
-import TopNavigation from "../../components/Global/TopNavigation";
-import LeftNavigation from "../../components/Global/LeftNavigation";
+import TopNavigation from "@/components/Global/TopNavigation";
+import LeftNavigation from "@/components/Global/LeftNavigation";
 
 function CustomLayoutLeftNavigation({ children }) {
   return (
