@@ -3,8 +3,8 @@ import Grid from "@mui/material/Grid";
 import { Box } from "@mui/material";
 import Header from "@/components/Conversor/Header";
 // import Contrast from "../../components/Conversor/Contrast/Contrast";
-// import Formulas from "../../components/Conversor/Formulas/Formulas";
-// import CustomeColorPicker from "../../components/Conversor/Formulas/ColorPicker";
+import Formulas from "../../components/Conversor/Formulas/Formulas";
+import CustomeColorPicker from "../../components/Conversor/Formulas/ColorPicker";
 // import MiddleMain from "../../components/Conversor/Middle/MiddleMain";
 
 function Conversor() {
@@ -30,8 +30,8 @@ function Conversor() {
             }}
             xs={3.8}
           >
-            {/* <Formulas /> */}
-            {/* <CustomeColorPicker/> */}
+            <Formulas />
+            <CustomeColorPicker />
           </Grid>
 
           {/* secound column */}
