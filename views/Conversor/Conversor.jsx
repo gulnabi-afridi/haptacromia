@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import { Box } from "@mui/material";
-// import Header from "../../components/Conversor/Header";
+import Header from "@/components/Conversor/Header";
 // import Contrast from "../../components/Conversor/Contrast/Contrast";
 // import Formulas from "../../components/Conversor/Formulas/Formulas";
 // import CustomeColorPicker from "../../components/Conversor/Formulas/ColorPicker";
@@ -19,7 +19,7 @@ function Conversor() {
       >
         {/* Conversor Header */}
 
-        {/* <Header /> */}
+        <Header />
 
         <Grid container spacing={{ xs: 1, xmd: 2 }}>
           {/* first column */}

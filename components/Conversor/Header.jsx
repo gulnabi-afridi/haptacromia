@@ -4,7 +4,7 @@ import { Typography, Button } from "@mui/material";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import CustomizedButton from "../../components/Common/CustomizedButton/CustomizedButton";
+import CustomizedButton from "../Common/CustomizedButton/CustomizedButton";
 import { Box } from "@mui/material";
 
 function Header() {
