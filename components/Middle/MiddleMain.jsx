@@ -1,9 +1,9 @@
 import React from "react";
 import { Box } from "@mui/material";
-import MiddleTop from "../../Conversor/Middle/MiddleTop";
-import Primary from "../../Conversor/Middle/Primary";
-import Secondary from "../../Conversor/Middle/Secondary";
-import Tertiary from "../../Conversor/Middle/Tertiary";
+import MiddleTop from "./MiddleTop";
+import Primary from "./Primary";
+import Secondary from "./Secondary";
+import Tertiary from "./Tertiary";
 import ColorShades from "./ColorShades";
 import VcmLocator from "./VcmLocator";
 

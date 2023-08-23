@@ -5,7 +5,7 @@ import Header from "@/components/Conversor/Header";
 // import Contrast from "../../components/Conversor/Contrast/Contrast";
 import Formulas from "../../components/Conversor/Formulas/Formulas";
 import CustomeColorPicker from "../../components/Conversor/Formulas/ColorPicker";
-// import MiddleMain from "../../components/Conversor/Middle/MiddleMain";
+import MiddleMain from "@/components/Middle/MiddleMain";
 
 function Conversor() {
   return (
@@ -36,7 +36,7 @@ function Conversor() {
 
           {/* secound column */}
           <Grid item sx={{ minHeight: "100vh" }} xs={5.5}>
-            {/* <MiddleMain/> */}
+            <MiddleMain />
           </Grid>
 
           {/* third column */}
