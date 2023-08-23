@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import { Box } from "@mui/material";
 import Header from "@/components/Conversor/Header";
-// import Contrast from "../../components/Conversor/Contrast/Contrast";
+import Contrast from "@/components/Contrast/Contrast";
 import Formulas from "../../components/Conversor/Formulas/Formulas";
 import CustomeColorPicker from "../../components/Conversor/Formulas/ColorPicker";
 import MiddleMain from "@/components/Middle/MiddleMain";
@@ -41,7 +41,7 @@ function Conversor() {
 
           {/* third column */}
           <Grid item sx={{ minHeight: "100vh" }} xs={2.5}>
-            {/* <Contrast /> */}
+            <Contrast />
           </Grid>
         </Grid>
       </Box>
