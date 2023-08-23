@@ -1,5 +1,5 @@
-import CustomLayoutLeftNavigation from "../Views/Layout/CustomLayoutLeftNavigation";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import CustomLayoutLeftNavigation from "@/views/Layout/CustomLayoutLeftNavigation";
 
 const theme = createTheme({
   breakpoints: {
