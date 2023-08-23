@@ -322,9 +322,9 @@ function Contrast() {
             alignItems: "center",
           }}
         >
-          {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14].map(() => {
+          {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14].map((item, index) => {
             return (
-              <Box sx={{ width: "100%" }}>
+              <Box key={index} sx={{ width: "100%" }}>
                 <Box
                   sx={{
                     fontSize: "30px",
@@ -347,9 +347,10 @@ function Contrast() {
           {[
             0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
             19, 20, 21,
-          ].map(() => {
+          ].map((item, index) => {
             return (
               <Box
+                key={index}
                 sx={{
                   width: "100%",
                   display: "flex",
@@ -363,6 +364,7 @@ function Contrast() {
                   {[0, 1, 2, 3].map((item, index) => {
                     return (
                       <Box
+                        key={index}
                         sx={{
                           width: "9.15px",
                           height: "9.15px",

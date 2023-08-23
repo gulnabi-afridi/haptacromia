@@ -41,9 +41,10 @@ function Formulas() {
                 mt: "40px",
               }}
             >
-              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => {
+              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
                 return (
                   <Box
+                    key={index}
                     sx={{ display: "flex", alignItems: "center", mb: "15px" }}
                   >
                     <Box
@@ -62,9 +63,10 @@ function Formulas() {
 
                     <Box>
                       <Box sx={{ display: "flex" }}>
-                        {[0, 1, 2, 3].map(() => {
+                        {[0, 1, 2, 3].map((item, index) => {
                           return (
                             <Box
+                              key={index}
                               sx={{
                                 width: "6.34px",
                                 height: "6.65px",
@@ -103,9 +105,10 @@ function Formulas() {
                   clipPath: "polygon(48% 0, 0 40%, 100% 40%)",
                 }}
               ></Box>
-              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => {
+              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
                 return (
                   <Box
+                    key={index}
                     sx={{
                       width: { xs: "60px", xmd: "96px" },
                       height: "40px",
@@ -160,9 +163,10 @@ function Formulas() {
                   clipPath: "polygon(48% 0, 0 40%, 100% 40%)",
                 }}
               ></Box>
-              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => {
+              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
                 return (
                   <Box
+                    key={index}
                     sx={{
                       width: { xs: "60px", xmd: "96px" },
                       height: "40px",
@@ -192,9 +196,10 @@ function Formulas() {
                 flexDirection: "column",
               }}
             >
-              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => {
+              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
                 return (
                   <Box
+                    key={index}
                     sx={{
                       display: "flex",
                       justifyContent: "center",
@@ -211,9 +216,10 @@ function Formulas() {
                       VCM Heptacromia N
                     </Typography>
                     <Box sx={{ display: "flex" }}>
-                      {[0, 1, 2, 3, 4, 5, 6].map(() => {
+                      {[0, 1, 2, 3, 4, 5, 6].map((item, index) => {
                         return (
                           <Box
+                            key={index}
                             sx={{
                               width: "6.34px",
                               height: "6.65px",

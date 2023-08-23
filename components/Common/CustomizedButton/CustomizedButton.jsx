@@ -31,7 +31,7 @@ function CustomizedButton({ color, text, icon, px }) {
               alignItems: "center",
             }}
           >
-            <Image src={icon} width={18} height={18}></Image>
+            <Image src={icon} width={18} height={18} alt=""></Image>
             <Typography
               sx={{
                 fontSize: "13px",
